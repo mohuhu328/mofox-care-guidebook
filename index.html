@@ -1,0 +1,3780 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>墨狐飼養手冊｜MoFox Care Manual</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       Intro / Initializing
+  ========================== -->
+
+  <main class="intro page">
+
+    <div class="intro-card">
+
+      <div class="system-label">
+        MoFox Research Database
+      </div>
+
+      <div class="terminal-line">
+        Initializing...
+      </div>
+
+      <div class="terminal-line">
+        Searching database...
+      </div>
+
+      <div class="terminal-line">
+        Unknown lifeform detected.
+      </div>
+
+      <div class="terminal-line">
+        Lifeform identified.
+      </div>
+
+
+      <section class="specimen-found">
+
+        <div class="specimen-number">
+          Lifeform No. 0914
+        </div>
+
+        <h1>MoFox</h1>
+
+        <div>
+          墨狐
+        </div>
+
+      </section>
+
+
+      <div class="warning">
+
+        ⚠️ <strong>Highly autonomous lifeform detected.</strong>
+
+        <br>
+
+        不建議擅自嘗試馴服。
+
+      </div>
+
+
+      <div class="button-group">
+
+        <button class="btn btn-primary"id="start-reading">
+          閱讀飼養指南
+        </button>
+
+        <button class="btn btn-secondary"id="pet-fox">
+          我很勇，我直接摸
+        </button>
+
+      </div>
+
+
+      <div class="fox-response">
+        <!-- 之後狐狸會在這裡說話 -->
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- =========================
+       Reading Guide
+  ========================== -->
+
+  <section class="reading-guide page" id="reading-guide">
+
+    <div class="container">
+
+      <div class="guide-card">
+
+        <div class="section-label">
+          Before Reading
+        </div>
+
+        <div class="guide-heading">
+
+          <div>
+            <h2>⚠️ 閱讀須知</h2>
+
+            <p class="guide-intro">
+              在正式翻閱《墨狐飼養手冊》以前，
+              請先確認以下四項研究守則。
+            </p>
+          </div>
+
+          <div class="guide-fox">
+            🦊
+          </div>
+
+        </div>
+
+
+        <!-- Rule 01 -->
+
+        <div class="guide-rule">
+
+          <div class="rule-number">
+            01
+          </div>
+
+          <div class="rule-content">
+
+            <h3>本手冊不是攻略。</h3>
+
+            <p>
+              知道狐狸喜歡什麼，不代表照做就一定能獲得好感。
+            </p>
+
+
+          </div>
+
+        </div>
+
+
+        <!-- Rule 02 -->
+
+        <div class="guide-rule">
+
+          <div class="rule-number">
+            02
+          </div>
+
+          <div class="rule-content">
+
+            <h3>本手冊並非永久有效。</h3>
+
+            <p>
+              狐狸會成長、改變，也可能在某一天推翻曾經的自己。
+            </p>
+
+            <strong>
+              本文件記錄的是此刻，而不是永恆。
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <!-- Rule 03 -->
+
+        <div class="guide-rule">
+
+          <div class="rule-number">
+            03
+          </div>
+
+          <div class="rule-content">
+
+            <h3>本手冊不是完整的墨狐。</h3>
+
+            <p>
+              這裡只收錄我願意公開的部分。
+              沒有被寫下來的東西，不代表不存在。
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Rule 04 -->
+
+        <div class="guide-rule">
+
+          <div class="rule-number">
+            04
+          </div>
+
+          <div class="rule-content">
+
+            <h3>實際狐狸擁有最高解釋權。</h3>
+
+            <p>
+              若本手冊與狐狸本人當下的說法產生衝突——
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Highest Priority Protocol -->
+
+        <div class="priority-protocol">
+
+          <div class="protocol-label">
+            Highest Priority Protocol
+          </div>
+
+          <div class="protocol-text">
+            請相信活的那隻。
+          </div>
+
+          <div class="protocol-fox">
+            🦊
+          </div>
+
+        </div>
+
+
+        <div class="guide-footer">
+
+          <p>
+            閱讀以上內容，即代表你已理解：
+          </p>
+
+          <p>
+            這是一份認識墨狐的研究紀錄，
+            而不是控制墨狐的使用說明書。
+          </p>
+
+        </div>
+
+
+        <button class="btn guide-confirm" id="guide-confirm">
+          我知道了，開始閱讀
+        </button>
+
+        <div class="guide-confirm-response" id="guide-confirm-response">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+    <!-- =========================
+       File 01 / Lifeform Profile
+  ========================== -->
+
+  <section class="specimen-profile page" id="file-01">
+
+    <div class="container">
+
+      <div class="file-header">
+
+        <div class="section-label">
+          File 01 / Lifeform Profile
+        </div>
+
+        <h2>物種基本檔案</h2>
+
+        <p class="file-subtitle">
+          Basic information regarding the unidentified fox-shaped lifeform.
+        </p>
+
+      </div>
+
+
+      <div class="specimen-card">
+
+        <div class="specimen-id">
+
+          <div class="specimen-avatar">
+            🦊
+          </div>
+
+          <div>
+
+            <div class="profile-label">
+              Lifeform
+            </div>
+
+            <h3>墨狐｜MoFox</h3>
+
+            <div class="profile-number">
+              Lifeform No. 0914
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="species-description">
+
+          <div class="profile-label">
+            Official Species Description
+          </div>
+
+          <p>
+            <em>
+              一隻天性自由、卻願意為珍視之物認真停留；
+              始終帶著好奇理解世界，也努力讓自己活得清醒而溫柔的狐狸。
+            </em>
+          </p>
+
+        </div>
+        <!-- Species Record -->
+
+        <div class="profile-section species-record">
+
+          <div class="profile-label">
+            Species Record
+          </div>
+
+          <div class="record-grid">
+
+            <div class="record-item">
+              <span class="record-name">Species</span>
+              <strong>赤狐狐仙</strong>
+            </div>
+
+            <div class="record-item">
+              <span class="record-name">Registered Age</span>
+              <strong>8001 歲</strong>
+            </div>
+
+            <div class="record-item">
+              <span class="record-name">Temperament</span>
+              <strong>高度自主</strong>
+            </div>
+
+            <div class="record-item">
+              <span class="record-name">Current Status</span>
+              <strong>自由活動中</strong>
+            </div>
+
+          </div>
+
+
+          <div class="research-note age-warning">
+
+            <div class="research-note-title">
+              Researcher Note
+            </div>
+
+            <p>
+              請勿因本個體登記年齡為 8001 歲，
+              擅自推定其實際人類年齡。
+            </p>
+
+            <p>
+              詢問「所以妳到底幾歲？」並不會使研究取得任何進展。
+            </p>
+
+            <div class="fox-quote">
+              🦊：「8001。」
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Naming Guide -->
+
+        <div class="profile-section naming-guide">
+
+          <div class="profile-label">
+            Naming Guide
+          </div>
+
+          <h3>如何稱呼這隻狐狸？</h3>
+
+          <p class="naming-intro">
+            墨狐喜歡可愛、好聽，或帶有獨特意義的稱呼。
+            比起制式暱稱，她更喜歡一個只屬於彼此<span class="keep-together">關係的名字。</span>
+          </p>
+
+
+          <div class="nickname-list">
+
+            <span>墨狐</span>
+            <span>狐狐</span>
+            <span>小狐狸</span>
+            <span>小芙妮</span>
+
+          </div>
+
+
+          <div class="naming-note">
+
+            <strong>關於專屬暱稱：</strong>
+
+            <p>
+              如果某個稱呼已經被明確賦予「專屬於某個人」的意義，
+              其他人就不適合直接沿用。
+            </p>
+
+            <p>
+              對墨狐而言，特別的稱呼之所以珍貴，
+              正是因為它承載著一段特定關係的痕跡。
+            </p>
+
+          </div>
+
+
+          <div class="naming-warning">
+
+            <div class="profile-label">
+              Naming Warning
+            </div>
+
+            <p>
+              不接受帶有貶抑、羞辱意味，
+              或未經同意便擅自套用的性化稱呼。
+            </p>
+
+            <p class="naming-warning-example">
+              例如：「小母狗」、「騷狗」。
+            </p>
+
+          </div>
+
+        </div>
+                <!-- Identity Tags -->
+
+        <div class="profile-section identity-tags">
+
+          <div class="profile-label">
+            Identity Tags
+          </div>
+
+          <h3>目前觀測到的標籤</h3>
+
+          <div class="tag-list">
+
+            <span>#BDSMer</span>
+            <span>#墨狐酒館</span>
+            <span>#探索</span>
+            <span>#女性主義</span>
+            <span>#台派</span>
+            <span>#主寵</span>
+            <span>#Ds關係</span>
+
+          </div>
+
+          <p class="tag-note">
+            標籤可以協助理解，但不能取代對一個人的真正認識。
+          </p>
+
+        </div>
+
+
+        <!-- Ability Stats -->
+
+        <div class="profile-section ability-stats">
+
+          <div class="profile-label">
+            Ability Stats
+          </div>
+
+          <h3>個體能力值</h3>
+
+          <div class="stats-list">
+
+
+            <!-- 好奇心 -->
+
+            <div class="stat-item">
+
+              <div class="stat-heading">
+
+                <span>好奇心</span>
+                <strong>95</strong>
+
+              </div>
+
+              <div class="stat-track">
+                <div class="stat-fill" style="--stat-value: 95%;"></div>
+              </div>
+
+            </div>
+
+
+            <!-- 行動力 -->
+
+            <div class="stat-item">
+
+              <div class="stat-heading">
+
+                <span>行動力</span>
+                <strong>95</strong>
+
+              </div>
+
+              <div class="stat-track">
+                <div class="stat-fill" style="--stat-value: 95%;"></div>
+              </div>
+
+            </div>
+
+
+            <!-- 好勝心 -->
+
+            <div class="stat-item">
+
+              <div class="stat-heading">
+
+                <span>好勝心</span>
+                <strong>100</strong>
+
+              </div>
+
+              <div class="stat-track">
+                <div class="stat-fill" style="--stat-value: 100%;"></div>
+              </div>
+
+            </div>
+
+
+            <!-- 文字敏感度 -->
+
+            <div class="stat-item">
+
+              <div class="stat-heading">
+
+                <span>文字敏感度</span>
+                <strong>99</strong>
+
+              </div>
+
+              <div class="stat-track">
+                <div class="stat-fill" style="--stat-value: 99%;"></div>
+              </div>
+
+            </div>
+
+
+            <!-- 耐辣能力 -->
+
+            <div class="stat-item spice-stat">
+
+              <div class="stat-heading">
+
+                <span>耐辣能力</span>
+                <strong>5</strong>
+
+              </div>
+
+              <div class="stat-track">
+                <div class="stat-fill" style="--stat-value: 5%;"></div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+          <div class="research-note stat-warning">
+
+            <div class="research-note-title">
+              Researcher Note
+            </div>
+
+            <p>
+              警告：請勿因前四項數值優異，
+              誤判本個體具有良好的生存能力。
+            </p>
+
+            <p>
+              辣椒可能有效制伏該生物。
+            </p>
+
+            <button class="chili-button" id="chili-button">
+              🌶️
+            </button>
+
+            <div class="chili-response" id="chili-response">
+            </div>
+
+          </div>
+
+        </div>
+        <!-- Danger Level -->
+
+<div class="profile-section danger-level">
+
+  <div class="danger-header">
+
+    <div>
+      <div class="profile-label">
+        Danger Level
+      </div>
+
+      <h3>高競爭性個體</h3>
+    </div>
+
+    <div class="danger-stars" aria-label="Danger Level 4 out of 5">
+      ★★★★☆
+    </div>
+
+  </div>
+
+
+  <p class="danger-description">
+    遇見值得挑戰的人事物時，
+    容易自行進入挑戰模式。
+    一旦決定認真，通常不太喜歡輕易認輸。
+  </p>
+
+
+  <div class="danger-warning">
+
+    <div class="danger-warning-icon">
+      ⚠️
+    </div>
+
+    <div>
+
+      <strong>
+        請勿將此特質視為可利用的行為開關。
+      </strong>
+
+      <p>
+        墨狐是否接受一項挑戰，
+        由墨狐本人決定。
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div class="danger-footer">
+    研究資料是拿來理解狐狸的，不是拿來操縱狐狸的。
+  </div>
+
+</div>
+      </div>
+
+    </div>
+
+  </section>
+    <!-- =========================
+       File 02 / Behavior Observation
+  ========================== -->
+
+  <section class="behavior-observation page" id="file-02">
+
+    <div class="container">
+
+      <!-- File Header -->
+
+      <div class="file-header">
+
+        <div class="section-label">
+          File 02 / Behavior Observation
+        </div>
+
+        <h2>習性觀察</h2>
+
+        <p class="file-subtitle">
+          Field notes regarding the daily behavior,
+          interaction patterns, and social habits of MoFox.
+        </p>
+
+      </div>
+
+
+      <!-- Observation 01 -->
+
+      <article class="behavior-card">
+
+        <div class="behavior-number">
+          Observation 01
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Free-Roaming Behavior
+            </div>
+
+            <h3>這不是走失，是自主探索。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            🦊🗺️
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          墨狐具有明顯的自主探索傾向。
+          偶爾會自己搭上火車前往鄰近城市，
+          在舊城區、歷史街區與陌生街道裡到處亂晃。
+        </p>
+
+
+        <div class="behavior-data">
+
+          <div class="behavior-data-label">
+            Frequently Observed Activities
+          </div>
+
+          <div class="behavior-tags">
+            <span>覓食</span>
+            <span>古蹟觀察</span>
+            <span>街道探索</span>
+            <span>地方故事蒐集</span>
+          </div>
+
+        </div>
+
+
+        <div class="field-note">
+
+          <div class="field-note-icon">
+            ⚠️
+          </div>
+
+          <div>
+
+            <strong>
+              此行為並非走失。
+            </strong>
+
+            <p>
+              但若於城市中發現墨狐的足跡，歡迎相認！
+            </p>
+
+          </div>
+
+        </div>
+
+      </article>
+      <!-- Observation 02 -->
+
+      <article class="behavior-card">
+
+        <div class="behavior-number">
+          Observation 02
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Approaching MoFox
+            </div>
+
+            <h3>想認識狐狸？先讓狐狸知道你是誰。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            👀🦊
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          墨狐通常更喜歡有內容、有來有往的認識方式。
+          比起制式自介，她更在意的是：
+          你為什麼會想和她說話，以及你真正對什麼產生了興趣。
+        </p>
+
+
+        <div class="approach-grid">
+
+          <div class="approach-panel">
+
+            <div class="approach-title">
+              ✓ Comfortable Signals
+            </div>
+
+            <ul>
+              <li>有禮貌地開啟對話</li>
+              <li>真的讀過她寫的內容</li>
+              <li>具體說出讓你感興趣的地方</li>
+              <li>願意分享自己的想法</li>
+              <li>文字與表達有基本的條理</li>
+            </ul>
+
+          </div>
+
+
+          <div class="approach-panel intent-panel">
+
+            <div class="approach-title">
+              Intent Detection
+            </div>
+
+            <p>
+              墨狐對互動意圖具有較高敏感度。
+            </p>
+
+            <p>
+              如果真正的目的與表面說法並不一致，
+              她通常能察覺其中的落差。
+            </p>
+
+            <div class="intent-status">
+              Detection Accuracy：Unknown
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="field-note">
+
+          <div class="field-note-icon">
+            📎
+          </div>
+
+          <div>
+
+            <p>
+              真誠、禮貌與尊重不是攻略技巧，
+              而是墨狐願意繼續認識一個人的基本條件。
+            </p>
+
+          </div>
+
+        </div>
+
+      </article>
+            <!-- Observation 03 -->
+
+      <article class="behavior-card trust-card">
+
+        <div class="behavior-number">
+          Observation 03
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Trust Behavior
+            </div>
+
+            <h3>狐狸開始把柔軟的地方露出來了。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            🦊🤍
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          當墨狐逐漸信任一個人，她會開始分享更多日常，
+          偶爾撒嬌、依賴，也可能讓對方看見疲憊、
+          委屈或不那麼堅強的時候。
+        </p>
+
+
+        <div class="trust-signals">
+
+          <div class="trust-signal">
+            <span class="trust-icon">☁️</span>
+            <span>分享瑣碎日常</span>
+          </div>
+
+          <div class="trust-signal">
+            <span class="trust-icon">🦊</span>
+            <span>開始撒嬌</span>
+          </div>
+
+          <div class="trust-signal">
+            <span class="trust-icon">💬</span>
+            <span>主動說起自己的故事</span>
+          </div>
+
+          <div class="trust-signal">
+            <span class="trust-icon">🌙</span>
+            <span>讓你看見疲憊與低落</span>
+          </div>
+
+        </div>
+
+
+        <div class="trust-quote">
+
+          <div class="trust-quote-label">
+            Research Interpretation
+          </div>
+
+          <p>
+            你不是讓狐狸「變得脆弱」；
+            你只是被允許看見原本就存在的脆弱。
+          </p>
+
+        </div>
+
+
+        <div class="trust-notice">
+
+          <div class="trust-notice-status">
+            Trust Access Granted
+          </div>
+
+          <p>
+            此階段取得的是
+            <strong>信任</strong>，
+            不是所有權。
+          </p>
+
+          <div class="trust-notice-footer">
+            請妥善保管。
+          </div>
+
+        </div>
+
+      </article>
+            <!-- Observation 04 -->
+
+      <article class="behavior-card affectionate-card">
+
+        <div class="behavior-number">
+          Observation 04
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Affectionate Behavior
+            </div>
+
+            <h3>警告：狐狸正在靠近。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            🦊💨
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          當墨狐處於撒嬌模式時，
+          可能會出現大量帶有肢體動作感的文字，
+          並主動縮短彼此之間的距離。
+        </p>
+
+
+        <div class="affection-samples">
+
+          <div class="affection-bubble">
+            (蹭蹭
+          </div>
+
+          <div class="affection-bubble">
+            (貼貼
+          </div>
+
+          <div class="affection-bubble">
+            (聞聞
+          </div>
+
+          <div class="affection-bubble">
+            (飛撲
+          </div>
+
+        </div>
+
+
+        <div class="affection-mode">
+
+          <div class="affection-mode-label">
+            Text Mode
+          </div>
+
+          <p>
+            常見表現包含括號動作、黏過來、蹭蹭與貼貼。
+          </p>
+
+        </div>
+
+
+        <div class="affection-mode">
+
+          <div class="affection-mode-label">
+            Voice Mode
+          </div>
+
+          <p>
+            可能出現重複的「嚶嚶」、
+            不明貓叫聲，以及其他目前尚未成功分類的狐狸音效。
+          </p>
+
+        </div>
+
+
+        <div class="paw-protocol">
+
+          <div class="paw-status">
+            Paw detected...
+          </div>
+
+          <div class="paw-animation">
+            🦊　→　🐾
+          </div>
+
+          <p>
+            若你也喜歡這種互動方式，
+            可以用相似的方式回應。
+          </p>
+
+          <div class="paw-examples">
+            <span>(摸摸</span>
+            <span>(抱住</span>
+            <span>(貼貼</span>
+          </div>
+
+        </div>
+
+
+        <div class="affection-core">
+
+          狐狸把爪子伸過來了，<br>
+          <strong>如果你也願意的話，也向她伸出手吧！</strong>
+
+        </div>
+
+      </article>
+            <!-- Observation 05 -->
+
+      <article class="behavior-card low-battery-card">
+
+        <div class="behavior-number">
+          Observation 05
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Low Battery Behavior
+            </div>
+
+            <h3>狐狸沒有消失，只是鑽回洞穴充電了。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            🦊🪫
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          當精神能量不足時，墨狐可能會暫時降低社交活動，
+          訊息逐漸堆積、回覆速度下降，
+          或乾脆安靜地躲回自己的洞穴裡。
+        </p>
+
+
+        <div class="battery-status">
+
+          <div class="battery-status-top">
+
+            <span>Social Battery</span>
+            <span>Low</span>
+
+          </div>
+
+          <div class="battery-track">
+            <div class="battery-fill"></div>
+          </div>
+
+          <div class="battery-system">
+            Energy saving mode activated...
+          </div>
+
+        </div>
+
+
+        <div class="low-battery-grid">
+
+          <div class="low-battery-panel">
+
+            <div class="low-battery-label">
+              Possible Signs
+            </div>
+
+            <ul>
+              <li>回覆速度突然下降</li>
+              <li>訊息很多，但暫時沒有力氣處理</li>
+              <li>比平常安靜許多</li>
+              <li>需要自己待一段時間</li>
+            </ul>
+
+          </div>
+
+
+          <div class="low-battery-panel">
+
+            <div class="low-battery-label">
+              Important Note
+            </div>
+
+            <div class="no-reply-message">
+              No reply ≠ dislike
+            </div>
+
+            <p>
+              安靜有時只是能量不足，
+              不必自動解讀成討厭、疏遠或關係出了問題。
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="cave-note">
+
+          <div class="cave-icon">
+            🕳️
+          </div>
+
+          <div>
+
+            <strong>
+              可以來找狐狸。
+            </strong>
+
+            <p>
+              即使沒有立即回覆，來自親近之人的關心與訊息，
+              仍可能讓她知道自己並不是一個人。
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="low-battery-warning">
+
+          <div class="low-battery-warning-label">
+            Please Do Not
+          </div>
+
+          <p>
+            不需要反覆追問「怎麼了？」，
+            也請別要求墨狐立刻整理好情緒、解釋原因，
+            或現在就恢復成平常的樣子。
+          </p>
+
+          <p class="low-battery-small">
+            有時候研究對象本人也不知道自己怎麼了。
+          </p>
+
+        </div>
+
+
+        <div class="low-battery-core">
+
+          <p>
+            可以來找我，<br>
+            <strong>但不要要求我現在就走出來。</strong>
+          </p>
+
+          <div class="low-battery-divider"></div>
+
+          <p class="cave-ending">
+            不用把我從洞穴裡拉出來，<br>
+            讓我知道洞穴外還有人在，就已經很好了。
+          </p>
+
+        </div>
+
+      </article>
+      <!-- Observation 06 -->
+
+      <article class="behavior-card sharing-card">
+
+        <div class="behavior-number">
+          Observation 06
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Sharing Behavior
+            </div>
+
+            <h3>狐狸今天又帶了一堆東西回來。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            🦊📨
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          墨狐具有相當旺盛的分享慾。
+          當她想到一件有趣的事、看見值得討論的議題，
+          或只是突然很想把某個生活片段拿給你看時，
+          訊息可能會開始大量出現。
+        </p>
+
+
+        <div class="sharing-stream">
+
+          <div class="sharing-stream-label">
+            Incoming Data Stream
+          </div>
+
+          <div class="sharing-topics">
+            <span>💭 突然冒出的想法</span>
+            <span>🌏 國際與世界</span>
+            <span>🏘️ 地方與文化</span>
+            <span>📚 最近看到的內容</span>
+            <span>🍜 今天吃了什麼</span>
+            <span>✨ 覺得很酷的東西</span>
+            <span>🗣️ 社會議題</span>
+            <span>🦊 沒有任何分類的日常</span>
+          </div>
+
+        </div>
+
+
+        <div class="sharing-research-note">
+
+          <div class="sharing-note-label">
+            Researcher Note
+          </div>
+
+          <p>
+            尚未發現分享內容存在穩定主題。
+          </p>
+
+          <p>
+            研究員曾嘗試建立分類系統，
+            最終宣布放棄。
+          </p>
+
+          <div class="sharing-classification">
+            Current Classification：想到什麼講什麼
+          </div>
+
+        </div>
+
+
+        <div class="sharing-meaning">
+
+          <div class="sharing-meaning-label">
+            Behavioral Interpretation
+          </div>
+
+          <p>
+            當墨狐開始頻繁地把看見的、想到的、
+            經歷過的事情拿來分享，
+            很多時候並不是在要求一個完美答案。
+          </p>
+
+          <p class="sharing-highlight">
+            她只是正在邀請你，
+            看看她眼中的世界。
+          </p>
+
+        </div>
+
+
+        <div class="sharing-response">
+
+          <div class="sharing-response-title">
+            Response Preference
+          </div>
+
+          <p>
+            不需要對每一則訊息寫三百字心得。
+            認真看、對內容有所回應，
+            或陪伴她當下的情緒，就已經很有意義。
+          </p>
+
+          <div class="sharing-response-tags">
+            <span>認真回應</span>
+            <span>陪伴情緒</span>
+            <span>共同討論</span>
+            <span>原諒狐狸有點吵</span>
+          </div>
+
+        </div>
+
+
+        <div class="sharing-core">
+
+          <p>
+            墨狐偶爾真的會很吵。
+          </p>
+
+          <strong>
+            請不要嫌她煩。
+          </strong>
+
+          <p class="sharing-core-small">
+            她只是很開心，所以有好多事情想拿來給你看。
+          </p>
+
+        </div>
+
+      </article>
+            <!-- Observation 07 -->
+
+      <article class="behavior-card conflict-card">
+
+        <div class="behavior-number">
+          Observation 07
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Conflict & Hurt
+            </div>
+
+            <h3>狐狸突然安靜，不一定只是沒電。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            🦊💭
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          當一段關係對墨狐而言足夠重要，
+          如果互動中出現讓她受傷或不舒服的事情，
+          她通常希望問題能被真正看見與處理。
+        </p>
+
+
+        <!-- Observable Signs -->
+
+        <div class="conflict-signs">
+
+          <div class="conflict-signs-label">
+            Possible Signs
+          </div>
+
+          <div class="conflict-sign-grid">
+
+            <div class="conflict-sign">
+              變得比平常安靜
+            </div>
+
+            <div class="conflict-sign">
+              回應明顯減少
+            </div>
+
+            <div class="conflict-sign">
+              對原本的話題失去興致
+            </div>
+
+            <div class="conflict-sign">
+              暫時拉開距離
+            </div>
+
+          </div>
+
+          <p class="conflict-sign-note">
+            ⚠️ 以上現象也可能來自疲憊、忙碌或其他原因。
+            請勿僅憑行為自行判定墨狐的情緒。
+          </p>
+
+        </div>
+
+
+        <!-- Communication -->
+
+        <div class="conflict-communication">
+
+          <div class="conflict-communication-label">
+            Communication Pattern
+          </div>
+
+          <p>
+            如果墨狐希望一段關係繼續走下去，
+            她多半會希望能把問題說開。
+            有時會直接表達，有時則需要一些時間，
+            才能整理出自己真正想說的話。
+          </p>
+
+        </div>
+
+
+        <!-- Suggested Response -->
+
+        <div class="conflict-example">
+
+          <div class="conflict-example-label">
+            A Gentle Invitation
+          </div>
+
+          <p>
+            「我感覺妳好像突然安靜了一點。
+            如果剛才有什麼讓妳不舒服，可以告訴我；
+            現在不想說也沒關係。」
+          </p>
+
+        </div>
+
+
+        <!-- Access Boundary -->
+
+        <div class="conflict-access">
+
+          <div class="conflict-access-status">
+            Access Request Pending...
+          </div>
+
+          <p>
+            你可以提供一個安全的開口，
+            但是否要說、什麼時候說、願意說多少，
+            仍然由墨狐自己決定。
+          </p>
+
+          <div class="conflict-access-core">
+            可以邀請墨狐說話，<br>
+            <strong>但不能要求墨狐揭露。</strong>
+          </div>
+
+        </div>
+
+
+      </article>
+      <!-- Observation 08 -->
+
+      <article class="behavior-card repair-card">
+
+        <div class="behavior-number">
+          Observation 08
+        </div>
+
+        <div class="behavior-heading">
+
+          <div>
+            <div class="profile-label">
+              Repair Behavior
+            </div>
+
+            <h3>關係出現 Bug，正在嘗試修復。</h3>
+          </div>
+
+          <div class="behavior-icon">
+            🦊🛠️
+          </div>
+
+        </div>
+
+
+        <p class="behavior-description">
+          墨狐並不期待一段關係永遠沒有誤會、摩擦或衝突。
+          比起「從來不出錯」，她更在意的是：
+          問題發生之後，彼此願不願意一起把它處理好。
+        </p>
+
+
+        <!-- Repair Principle -->
+
+        <div class="repair-principle">
+
+          <div class="repair-principle-label">
+            Repair Principle
+          </div>
+
+          <p>
+            對墨狐而言，道歉並不是一句話說完就結束。
+            她通常更在意對方是否理解發生了什麼、
+            願意聽見彼此的感受，
+            並一起討論下一次可以怎麼做。
+          </p>
+
+        </div>
+
+
+        <!-- Repair Sequence -->
+
+        <div class="repair-sequence">
+
+          <div class="repair-sequence-label">
+            Suggested Repair Sequence
+          </div>
+
+
+          <div class="repair-step">
+
+            <div class="repair-step-number">
+              01
+            </div>
+
+            <div>
+              <strong>先承認感受存在</strong>
+              <p>
+                不急著判斷「應不應該難過」，
+                先理解對方確實因此產生了感受。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="repair-step">
+
+            <div class="repair-step-number">
+              02
+            </div>
+
+            <div>
+              <strong>一起釐清發生了什麼</strong>
+              <p>
+                確認彼此理解的是不是同一件事，
+                也讓誤會有被說明的空間。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="repair-step">
+
+            <div class="repair-step-number">
+              03
+            </div>
+
+            <div>
+              <strong>討論下一次怎麼辦</strong>
+              <p>
+                如果有可以調整的地方，
+                一起找到雙方都能接受的方式。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="repair-step">
+
+            <div class="repair-step-number">
+              04
+            </div>
+
+            <div>
+              <strong>然後，才是抱抱時間。</strong>
+              <p>
+                問題處理完畢後，
+                歡迎重新捕獲一隻軟綿綿的狐狸。
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- System Check -->
+
+        <div class="repair-system">
+
+          <div class="repair-system-title">
+            Relationship Repair Protocol
+          </div>
+
+          <div class="repair-check">
+            <span>Issue acknowledged</span>
+            <span>✓</span>
+          </div>
+
+          <div class="repair-check">
+            <span>Misunderstanding cleared</span>
+            <span>✓</span>
+          </div>
+
+          <div class="repair-check">
+            <span>Next step confirmed</span>
+            <span>✓</span>
+          </div>
+
+          <div class="repair-check repair-hug">
+            <span>Hug protocol available</span>
+            <span>🫂</span>
+          </div>
+
+        </div>
+
+
+        <!-- Important Note -->
+
+        <div class="repair-warning">
+
+          <strong>
+            「沒事啦」不是修復程序。
+          </strong>
+
+          <p>
+            如果問題仍然存在，
+            用安撫、抱抱或一句「不要想那麼多」直接跳過討論，
+            並不等於問題已經被解決。
+          </p>
+
+        </div>
+
+
+        <!-- Core -->
+
+        <div class="repair-core">
+
+          <p>
+            墨狐不害怕關係裡出現問題。
+          </p>
+
+          <strong class="keep-together">比起沒有衝突，她更在意的是：我們有沒有能力在衝突之後，重新理解彼此。</strong>
+
+        </div>
+
+      </article>
+            <!-- Field Summary -->
+
+      <div class="field-summary">
+
+        <div class="field-summary-header">
+
+          <div>
+            <div class="profile-label">
+              Field Summary
+            </div>
+
+            <h3>階段性觀察結論</h3>
+          </div>
+
+          <div class="field-summary-status">
+            File Complete ✓
+          </div>
+
+        </div>
+
+
+        <p class="field-summary-intro">
+          綜合目前紀錄，墨狐具有高度自主性、
+          旺盛的探索與分享傾向，
+          並會隨信任程度與精神狀態呈現不同的互動模式。
+        </p>
+
+
+        <div class="field-summary-findings">
+
+          <div class="summary-finding">
+            <span>01</span>
+            <p>
+              自主不代表拒絕親近。
+            </p>
+          </div>
+
+          <div class="summary-finding">
+            <span>02</span>
+            <p>
+              安靜不必然代表疏遠。
+            </p>
+          </div>
+
+          <div class="summary-finding">
+            <span>03</span>
+            <p>
+              信任不是所有權。
+            </p>
+          </div>
+
+          <div class="summary-finding">
+            <span>05</span>
+            <p>
+              好的關係不需要沒有衝突，而需要有修復的能力。
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="field-summary-note">
+
+          <div class="field-summary-note-label">
+            Research Status
+          </div>
+
+          <p>
+            研究仍在持續。
+          </p>
+
+          <p>
+            本個體可能隨時間產生新的習性、
+            推翻既有紀錄，或突然做出研究員完全無法解釋的行為。
+          </p>
+
+          <div class="field-summary-fox">
+            🦊「我哪知道。」
+          </div>
+
+        </div>
+
+
+        <div class="field-summary-footer">
+
+          <span>Behavior Observation</span>
+
+          <strong>
+            Completed ✓
+          </strong>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- =========================
+       File 03 / Affection System
+  ========================== -->
+
+  <section class="affection-system page" id="file-03">
+
+    <div class="container">
+
+      <!-- File Header -->
+
+      <div class="file-header">
+
+        <div class="section-label">
+          File 03 / Affection System
+        </div>
+
+        <h2>好感度系統</h2>
+
+        <p class="file-subtitle">
+          Research notes regarding emotional resonance,
+          relational compatibility, and affection changes.
+        </p>
+
+      </div>
+
+
+      <!-- Affection Dashboard -->
+
+      <div class="affection-dashboard">
+
+        <div class="affection-dashboard-top">
+
+          <div>
+            <div class="profile-label">
+              Current Affection
+            </div>
+
+            <h3>MoFox Affection Meter</h3>
+          </div>
+
+          <div class="affection-value">
+            <span id="affection-display">0</span>
+            <span class="affection-max">/ 100</span>
+          </div>
+
+        </div>
+
+
+        <div class="affection-meter">
+
+          <div
+            class="affection-meter-fill"
+            id="affection-meter-fill">
+          </div>
+
+        </div>
+
+
+        <div class="affection-level">
+
+          <span>Unknown</span>
+          <span>Familiar</span>
+          <span>Trusted</span>
+          <span>Special</span>
+
+        </div>
+
+
+        <div class="affection-status">
+          Status：Research in progress...
+        </div>
+
+      </div>
+
+
+      <!-- Important System Rule -->
+
+      <div class="affection-rule">
+
+        <div class="affection-rule-icon">
+          ⚠️
+        </div>
+
+        <div>
+
+          <div class="affection-rule-label">
+            System Notice
+          </div>
+
+          <h3>
+            好感度不是攻略進度。
+          </h3>
+
+          <p>
+            本系統只是將部分互動感受轉化成遊戲化呈現。
+            真實的人際關係並不存在固定公式，
+            相同的行為也可能因情境、關係與當下感受而產生完全不同的結果。
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <!-- Context Warning -->
+
+      <div class="affection-context">
+
+        <div class="affection-context-label">
+          Context Dependency Detected
+        </div>
+
+        <p>
+          本檔案中的數值皆為敘事效果，
+          不代表任何行為具有固定的「加分」或「扣分」效果。
+        </p>
+
+        <div class="affection-equation">
+
+          Same Action
+          <span>+</span>
+          Different Context
+          <span>=</span>
+          Different Result
+
+        </div>
+
+      </div>
+      <!-- Affection Event 01 / Resonance -->
+
+      <article class="affection-event resonance-event">
+
+        <div class="affection-event-header">
+
+          <div>
+
+            <div class="affection-event-number">
+              Affection Event 01
+            </div>
+
+            <div class="profile-label">
+              Resonance
+            </div>
+
+            <h3>共鳴</h3>
+
+          </div>
+
+          <div class="affection-event-icon">
+            ✦
+          </div>
+
+        </div>
+
+
+        <p class="affection-event-description">
+          對墨狐而言，真正令人產生好感的，
+          往往不是單純的附和，而是發現：
+          對方真的理解了自己正在表達的東西。
+        </p>
+
+
+        <div class="resonance-signals">
+
+          <div class="resonance-signal">
+            <span>文字被真正讀懂</span>
+          </div>
+
+          <div class="resonance-signal">
+            <span>想法產生共鳴</span>
+          </div>
+
+          <div class="resonance-signal">
+            <span>共同感興趣的議題</span>
+          </div>
+
+          <div class="resonance-signal">
+            <span>即使不同意，也願意理解</span>
+          </div>
+
+        </div>
+
+
+        <div class="resonance-note">
+
+          <div class="resonance-note-label">
+            Important
+          </div>
+
+          <p>
+            共鳴並不等於完全同意，
+            更不等於迎合。
+          </p>
+
+          <p>
+            比起聽見「我也是」，
+            墨狐更在意的是：
+            你是否真的理解她為什麼這樣想。
+          </p>
+
+        </div>
+
+
+        <div class="resonance-demo">
+
+          <div class="resonance-system-text">
+            Text resonance detected...
+          </div>
+
+          <div class="resonance-fox">
+            🦊「……你有看懂欸。」
+          </div>
+
+          <button
+            class="resonance-button"
+            id="resonance-button"
+            type="button">
+            ✦ 觸發共鳴事件
+          </button>
+
+          <div
+            class="resonance-result"
+            id="resonance-result">
+          </div>
+
+        </div>
+
+
+        <div class="resonance-core">
+
+          <p>
+            對墨狐而言，
+          </p>
+
+          <strong>
+            「原來你也懂」是一件非常浪漫的事。
+          </strong>
+
+        </div>
+
+      </article>
+            <!-- Affection Event 02 / Small Positive Events -->
+
+      <article class="affection-event positive-event">
+
+        <div class="affection-event-header">
+
+          <div>
+
+            <div class="affection-event-number">
+              Affection Event 02
+            </div>
+
+            <div class="profile-label">
+              Small Positive Events
+            </div>
+
+            <h3>那些會被狐狸偷偷記住的小事。</h3>
+
+          </div>
+
+          <div class="affection-event-icon">
+            ♡
+          </div>
+
+        </div>
+
+
+        <p class="affection-event-description">
+          有些事情不會立刻觸發巨大的情緒波動，
+          卻可能在一次又一次的相處裡，
+          被墨狐安靜地收進記憶。
+        </p>
+
+
+        <div class="positive-grid">
+
+          <div class="positive-item">
+            <span class="positive-icon">📝</span>
+
+            <div>
+              <strong>記得她說過的事情</strong>
+              <p>尤其是那些她自己都快忘記提過的小細節。</p>
+            </div>
+          </div>
+
+
+          <div class="positive-item">
+            <span class="positive-icon">☕</span>
+
+            <div>
+              <strong>安靜地陪伴</strong>
+              <p>不一定需要一直說話，也不急著填滿所有空白。</p>
+            </div>
+          </div>
+
+
+          <div class="positive-item">
+            <span class="positive-icon">🌱</span>
+
+            <div>
+              <strong>願意理解陌生的世界</strong>
+              <p>即使不是自己熟悉的領域，也願意認真聽她分享。</p>
+            </div>
+          </div>
+
+
+          <div class="positive-item">
+            <span class="positive-icon">🎁</span>
+
+            <div>
+              <strong>「我看到這個就想到妳」</strong>
+              <p>東西本身未必重要，被放進心上比較重要。</p>
+            </div>
+          </div>
+
+
+          <div class="positive-item">
+            <span class="positive-icon">🦊</span>
+
+            <div>
+              <strong>看見閃閃發光，也接得住不那麼閃亮的時候</strong>
+              <p>不只喜歡最好看的那一面。</p>
+            </div>
+          </div>
+
+
+          <div class="positive-item">
+            <span class="positive-icon">✦</span>
+
+            <div>
+              <strong>留下只屬於彼此的小東西</strong>
+              <p>一句稱呼、一個梗，或某段只有彼此理解的記憶。</p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="positive-memory">
+
+          <div class="positive-memory-status">
+            Memory fragment saved...
+          </div>
+
+          <p class="keep-together">真正容易讓墨狐產生好感的，往往不是「做了一件多厲害的事」，而是某個瞬間讓她發現：</p>
+
+          <strong>
+            「原來你真的有把我放在心上。」
+          </strong>
+
+        </div>
+
+
+        <div class="positive-core">
+
+          <strong>
+            「我認識的不是某一隻狐狸，而是墨狐妳。」這件事讓她感到歡愉
+          </strong>
+
+        </div>
+
+      </article>
+            <!-- Affection Event 03 / Friction Signals -->
+
+      <article class="affection-event friction-event">
+
+        <div class="affection-event-header">
+
+          <div>
+
+            <div class="affection-event-number">
+              Affection Event 03
+            </div>
+
+            <div class="profile-label">
+              Friction Signals
+            </div>
+
+            <h3>有些小地方，會讓狐狸慢慢冷掉。</h3>
+
+          </div>
+
+          <div class="affection-event-icon">
+            ⚠️
+          </div>
+
+        </div>
+
+
+        <p class="affection-event-description">
+          好感的下降不一定來自某一次巨大的衝突。
+          有時候，是一些看似微小的互動模式反覆出現，
+          讓原本舒服的相處逐漸產生摩擦。
+        </p>
+
+
+        <div class="friction-grid">
+
+          <div class="friction-item">
+
+            <div class="friction-icon">
+              ✎
+            </div>
+
+            <div>
+              <strong>反覆出現已經提醒過的文字錯誤</strong>
+
+              <p>
+                墨狐對文字相當敏感。
+                偶爾打錯字沒關係，但已經提醒過很多次仍反覆出現，
+                可能讓狐狸默默冷掉。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="friction-item">
+
+            <div class="friction-icon">
+              🥶
+            </div>
+
+            <div>
+              <strong>認真分享只得到敷衍回應</strong>
+
+              <p>
+                尤其當墨狐正在分享自己很在意的事情時，
+                過度冷淡的回應容易讓分享慾迅速下降。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="friction-item">
+
+            <div class="friction-icon">
+              👻
+            </div>
+
+            <div>
+              <strong>長期缺乏回應</strong>
+
+              <p>
+                偶爾沒有回覆與長期忽略並不是同一件事。
+                若互動總是單向，狐狸可能逐漸停止主動靠近。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="friction-item">
+
+            <div class="friction-icon">
+              🎭
+            </div>
+
+            <div>
+              <strong>遇到問題時只剩防衛</strong>
+
+              <p>
+                如果每一次提出不舒服，
+                最後都變成誰對誰錯的攻防戰，
+                墨狐會很難繼續安心地溝通。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="friction-item">
+
+            <div class="friction-icon">
+              😶
+            </div>
+
+            <div>
+              <strong>把不舒服包裝成「只是開玩笑」</strong>
+
+              <p>
+                幽默感可以不同，
+                但當對方已經表達不舒服，
+                玩笑本身就不再比感受重要。
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Core Incompatibility -->
+
+        <div class="core-incompatibility">
+
+          <div class="core-incompatibility-label">
+            Core Incompatibility Detected
+          </div>
+
+          <h4>
+            對女性缺乏基本尊重
+          </h4>
+
+          <p>
+            這並不是普通的「小扣分項」。
+            若一個人的言行長期建立在貶低、物化或羞辱女性之上，
+            對墨狐而言更接近價值觀上的根本不相容。
+          </p>
+
+          <div class="core-incompatibility-status">
+            Classification：Compatibility Issue
+          </div>
+
+        </div>
+
+
+        <!-- Context -->
+
+        <div class="friction-context">
+
+          <div class="friction-context-label">
+            Context Still Matters
+          </div>
+
+          <p>
+            一次事件並不能自動定義一個人，
+            也不存在「做了這件事就固定扣幾分」的公式。
+          </p>
+
+          <strong>
+            墨狐更在意的是模式、態度，以及問題出現後如何被處理。
+          </strong>
+
+        </div>
+
+      </article>
+            <!-- Hard Boundaries -->
+
+      <article class="hard-boundaries">
+
+        <div class="hard-boundaries-header">
+
+          <div class="hard-boundaries-warning">
+            ⚠️ Critical Boundary Notice
+          </div>
+
+          <div class="profile-label">
+            Hard Boundaries
+          </div>
+
+          <h3>有些事情，不屬於好感度系統。</h3>
+
+        </div>
+
+
+        <p class="hard-boundaries-intro">
+          前面的互動或許會讓關係靠近、疏遠，
+          也可能因為情境不同而產生完全不同的結果。
+        </p>
+
+        <p class="hard-boundaries-intro">
+          但以下內容並不是「扣比較多分」的事件，
+          而是涉及信任、安全與基本尊重的界線。
+        </p>
+
+
+        <div class="boundary-list">
+
+          <div class="boundary-item">
+
+            <div class="boundary-number">
+              01
+            </div>
+
+            <div>
+              <strong>羞辱女性</strong>
+
+              <p>
+                將女性物化、貶低，或使用帶有羞辱意味的方式對待女性，
+                並不會因為「只是玩笑」而自動變得可以接受。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="boundary-item">
+
+            <div class="boundary-number">
+              02
+            </div>
+
+            <div>
+              <strong>不誠實</strong>
+
+              <p>
+                墨狐可以理解一個人選擇暫時不說，
+                但「沒有揭露」與「刻意提供錯誤資訊」並不是同一件事。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="boundary-item">
+
+            <div class="boundary-number">
+              03
+            </div>
+
+            <div>
+              <strong>明知界線仍故意踩過</strong>
+
+              <p>
+                當界線已經被清楚表達，
+                仍刻意測試、挑戰或跨越，
+                問題就不再只是「不知道」。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="boundary-item">
+
+            <div class="boundary-number">
+              04
+            </div>
+
+            <div>
+              <strong>同一件事反覆提醒後仍持續發生</strong>
+
+              <p>
+                犯錯本身並不等於關係終止，
+                但若同一項重要界線在多次溝通後仍被反覆忽略，
+                信任會因此受到影響。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="boundary-item">
+
+            <div class="boundary-number">
+              05
+            </div>
+
+            <div>
+              <strong>未經同意揭露私人資訊</strong>
+
+              <p>
+                墨狐願意把一件私人事情告訴你，
+                不代表同意你替她決定下一位知情者。
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Privacy Protocol -->
+
+        <div class="boundary-privacy">
+
+          <div class="boundary-privacy-label">
+            Privacy Protocol
+          </div>
+
+          <p>
+            墨狐主動告訴你的私人資訊，
+            不代表同意你替她決定下一位知情者。
+          </p>
+
+          <strong>
+            若不確定某件事情能否向第三人提及——先問。
+          </strong>
+
+        </div>
+
+
+        <!-- Critical Notice -->
+
+        <div class="boundary-critical">
+
+          <div class="boundary-critical-label">
+            ⚠️ This is not an affection event.
+          </div>
+
+          <p>
+            有些事情不是扣多少好感、
+            道歉之後就能重新刷回來。
+          </p>
+
+          <strong>
+            界線不是遊戲機制。
+          </strong>
+
+        </div>
+
+      </article>
+      <!-- File 03 / Field Summary -->
+
+      <div class="affection-summary">
+
+        <div class="affection-summary-top">
+
+          <div>
+            <div class="affection-summary-label">
+              Field Summary
+            </div>
+
+            <h3>
+              好感度系統研究結論
+            </h3>
+          </div>
+
+          <div class="affection-summary-complete">
+            File Complete ✓
+          </div>
+
+        </div>
+
+
+        <div class="affection-summary-findings">
+
+          <div class="affection-summary-item">
+            <span>01</span>
+
+            <p>
+              好感不是可以按照固定公式累積的數值。
+            </p>
+          </div>
+
+
+          <div class="affection-summary-item">
+            <span>02</span>
+
+            <p>
+              比起「做對了什麼」，墨狐更在意自己是否真的被理解。
+            </p>
+          </div>
+
+
+          <div class="affection-summary-item">
+            <span>03</span>
+
+            <p>
+              很多微小的事情不會立刻改變關係，卻可能被狐狸記很久。
+            </p>
+          </div>
+
+
+          <div class="affection-summary-item">
+            <span>04</span>
+
+            <p>
+              一次事件不等於一個人；真正重要的是長期形成的互動模式。
+            </p>
+          </div>
+
+
+          <div class="affection-summary-item">
+            <span>05</span>
+
+            <p>
+              界線不是高額扣分項，而是必須被獨立尊重的安全規則。
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="affection-summary-status">
+
+          <div class="affection-summary-status-label">
+            Research Status
+          </div>
+
+          <p>
+            尚未發現能夠穩定提升墨狐好感度的通用公式。
+          </p>
+
+          <p>
+            研究員嘗試建立攻略表後，
+            因變數過多、情境依賴嚴重，
+            最終宣布放棄。
+          </p>
+
+          <div class="affection-summary-fox">
+            🦊：快來跟我相處看看，你就會知道了！！
+          </div>
+
+        </div>
+
+
+        <div class="affection-summary-footer">
+
+          <span>
+            Affection System
+          </span>
+
+          <strong>
+            Completed ✓
+          </strong>
+
+        </div>
+
+      </div>
+      
+    </div>
+
+  </section>
+      <!-- ========================================
+         File 04 / Feeding Guide
+    ========================================= -->
+
+    <section class="feeding-guide page" id="file-04">
+
+      <div class="container">
+
+        <!-- File Header -->
+
+        <div class="file-header">
+
+          <div class="section-label">
+            File 04 / Feeding Guide
+          </div>
+
+          <h2>
+            投餵指南
+          </h2>
+
+          <p class="file-subtitle">
+            Dietary preferences, feeding hazards, and other known methods of supplying energy to MoFox.
+          </p>
+
+        </div>
+
+
+        <!-- Feeding Introduction -->
+
+        <div class="feeding-intro">
+
+          <div class="feeding-intro-label">
+            Feeding Protocol
+          </div>
+
+          <p>
+            經長期觀察，本個體對食物具有明顯偏好，
+            且部分食材可能造成迅速且強烈的拒絕反應。
+          </p>
+
+          <p>
+            為確保研究員與狐狸雙方安全，
+            投餵前請先閱讀以下紀錄。
+          </p>
+
+        </div>
+
+
+        <!-- Food Preferences -->
+
+        <div class="food-preferences">
+
+          <div class="feeding-section-heading">
+
+            <div class="profile-label">
+              Food Preferences
+            </div>
+
+            <h3>
+              狐狸會很開心地吃掉的東西
+            </h3>
+
+          </div>
+
+
+          <div class="food-grid">
+
+            <!-- Local Food -->
+
+            <div class="food-card featured-food">
+
+              <div class="food-icon">
+                🥢
+              </div>
+
+              <div class="food-card-content">
+
+                <div class="food-card-label">
+                  High Interest
+                </div>
+
+                <h4>
+                  地方小吃
+                </h4>
+
+                <p>
+                  比起單純填飽肚子，
+                  墨狐更容易被一座城市獨有的味道吸引。
+                  如果食物背後還藏著地方故事，
+                  研究對象的探索雷達通常會一起啟動。
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Dessert -->
+
+            <div class="food-card">
+
+              <div class="food-icon">
+                🍰
+              </div>
+
+              <div class="food-card-content">
+
+                <h4>
+                  甜點
+                </h4>
+
+                <p>
+                  歡迎投餵，但甜度請適量。
+                  若甜到讓喉嚨產生不舒服的感覺，
+                  狐狸可能停止進食。
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Drinks -->
+
+            <div class="food-card">
+
+              <div class="food-icon">
+                🧋
+              </div>
+
+              <div class="food-card-content">
+
+                <h4>
+                  手搖飲
+                </h4>
+
+                <p>
+                  可接受範圍廣泛，
+                  但部分茶類具有非常明確的糖度設定。
+                </p>
+
+                <div class="food-mini-tags">
+                  <span>蕎麥茶｜無糖</span>
+                  <span>綠茶｜無糖</span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <!-- Scallion Pancake -->
+
+            <div class="food-card">
+
+              <div class="food-icon">
+                🫓
+              </div>
+
+              <div class="food-card-content">
+
+                <h4>
+                  蔥油餅
+                </h4>
+
+                <p>
+                  已確認為安全且具有良好接受度的投餵選項。
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Pork Stomach -->
+
+            <div class="food-card">
+
+              <div class="food-icon">
+                🍲
+              </div>
+
+              <div class="food-card-content">
+
+                <h4>
+                  豬肚
+                </h4>
+
+                <p>
+                  研究紀錄顯示接受度良好。
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Intestine -->
+
+            <div class="food-card">
+
+              <div class="food-icon">
+                🥣
+              </div>
+
+              <div class="food-card-content">
+
+                <h4>
+                  粉腸
+                </h4>
+
+                <p>
+                  同樣位於狐狸的食物偏好清單之中。
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Food Detection -->
+
+          <div class="food-detection">
+
+            <div class="food-detection-status">
+              Food detected.
+            </div>
+
+            <div class="food-detection-status">
+              Local culture detected.
+            </div>
+
+            <div class="food-detection-result">
+              MoFox interest increased. ↑
+            </div>
+
+            <div class="food-detection-fox">
+              🦊「這個地方有什麼只有這裡才吃得到的？」
+            </div>
+
+          </div>
+
+        </div>
+        <!-- Feeding Hazards -->
+
+        <div class="feeding-hazards">
+
+          <div class="feeding-section-heading">
+
+            <div class="profile-label">
+              Feeding Hazards
+            </div>
+
+            <h3>
+              警告：以下物質請謹慎投餵
+            </h3>
+
+          </div>
+
+
+          <p class="hazard-intro">
+            經研究確認，部分食材可能觸發墨狐的拒絕反應。
+            為避免珍貴研究個體逃離現場，建議投餵前仔細確認內容物。
+          </p>
+
+
+          <div class="hazard-grid">
+
+            <!-- Spicy Food -->
+
+            <div class="hazard-card rejected">
+
+              <div class="hazard-icon">
+                🌶️
+              </div>
+
+              <div class="hazard-content">
+
+                <div class="hazard-status">
+                  REJECTED
+                </div>
+
+                <h4>
+                  辣
+                </h4>
+
+                <p>
+                  高危險投餵項目。
+                  本個體辣度耐受能力極低，
+                  請勿因「這個只有一點點辣」而擅自進行人體——狐體實驗。
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Cilantro -->
+
+            <div class="hazard-card rejected">
+
+              <div class="hazard-icon">
+                🌿
+              </div>
+
+              <div class="hazard-content">
+
+                <div class="hazard-status">
+                  REJECTED
+                </div>
+
+                <h4>
+                  香菜
+                </h4>
+
+                <p>
+                  已確認為拒絕攝取項目。
+                  若食物上出現不明綠色葉片，
+                  建議先確認其物種再靠近狐狸。
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Ginger -->
+
+            <div class="hazard-card conditional">
+
+              <div class="hazard-icon">
+                🫚
+              </div>
+
+              <div class="hazard-content">
+
+                <div class="hazard-status">
+                  CONDITIONAL
+                </div>
+
+                <h4>
+                  薑本人
+                </h4>
+
+                <p>
+                  不接受直接食用，
+                  但作為料理中的爆香或調味用途可以接受。
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <!-- Garlic -->
+
+            <div class="hazard-card conditional">
+
+              <div class="hazard-icon">
+                🧄
+              </div>
+
+              <div class="hazard-content">
+
+                <div class="hazard-status">
+                  CONDITIONAL
+                </div>
+
+                <h4>
+                  蒜本人
+                </h4>
+
+                <p>
+                  不接受直接食用，
+                  但作為料理中的爆香或調味用途可以接受。
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Feeding Experiment -->
+
+          <div class="feeding-experiment">
+
+            <div class="feeding-experiment-label">
+              Experimental Feeding
+            </div>
+
+            <p>
+              研究員是否仍堅持進行危險投餵實驗？
+            </p>
+
+
+            <div class="feeding-experiment-buttons">
+
+              <button
+                class="feeding-test-button safe"
+                id="safe-food-button"
+                type="button">
+                🍵 投餵無糖綠茶
+              </button>
+
+              <button
+                class="feeding-test-button danger"
+                id="danger-food-button"
+                type="button">
+                🌶️ 投餵爆辣料理
+              </button>
+
+            </div>
+
+
+            <div
+              class="feeding-experiment-result"
+              id="feeding-experiment-result">
+            </div>
+
+          </div>
+
+
+          <!-- Hazard Warning -->
+
+          <div class="hazard-warning">
+
+            <div class="hazard-warning-label">
+              ⚠️ Researcher Warning
+            </div>
+
+            <p>
+              「我覺得這個不辣」並不是有效的辣度測量單位。
+            </p>
+
+            <strong>
+              請相信狐狸自己的舌頭。
+            </strong>
+
+          </div>
+
+        </div>
+
+                <!-- Non-Food Feeding -->
+
+        <div class="non-food-feeding">
+
+          <div class="feeding-section-heading">
+
+            <div class="profile-label">
+              Non-Food Feeding
+            </div>
+
+            <h3>
+              狐狸不只需要食物。
+            </h3>
+
+          </div>
+
+
+          <p class="non-food-intro">
+            研究過程中發現，本個體似乎也會從新的資訊、
+            故事、體驗與世界觀中獲取某種形式的精神能量。
+          </p>
+
+
+          <div class="non-food-grid">
+
+            <div class="non-food-card">
+              <div class="non-food-icon">✦</div>
+
+              <strong>
+                新奇、有趣的東西
+              </strong>
+
+              <p>
+                沒看過、沒想過、第一次知道的事物，
+                通常很容易吸引狐狸注意。
+              </p>
+            </div>
+
+
+            <div class="non-food-card">
+              <div class="non-food-icon">🏛️</div>
+
+              <strong>
+                地方與文化
+              </strong>
+
+              <p>
+                城市故事、地方歷史、文化觀察，
+                以及只有某個地方才存在的生活痕跡。
+              </p>
+            </div>
+
+
+            <div class="non-food-card">
+              <div class="non-food-icon">🌍</div>
+
+              <strong>
+                國際與世界
+              </strong>
+
+              <p>
+                不同國家、不同文化，
+                或任何能讓視野再往外延伸一點的東西。
+              </p>
+            </div>
+
+
+            <div class="non-food-card">
+              <div class="non-food-icon">💭</div>
+
+              <strong>
+                值得思考的社會議題
+              </strong>
+
+              <p>
+                如果一個問題沒有簡單答案，
+                反而更可能讓狐狸想湊過去研究一下。
+              </p>
+            </div>
+
+
+            <div class="non-food-card">
+              <div class="non-food-icon">📚</div>
+
+              <strong>
+                書與故事
+              </strong>
+
+              <p>
+                一本書、一篇文章，
+                或某個值得交換彼此觀點的故事。
+              </p>
+            </div>
+
+
+            <div class="non-food-card">
+              <div class="non-food-icon">🎨</div>
+
+              <strong>
+                展覽與文創
+              </strong>
+
+              <p>
+                有趣的展覽、設計、文化創意，
+                以及那些會讓人忍不住停下來多看幾眼的作品。
+              </p>
+            </div>
+
+
+            <div class="non-food-card">
+              <div class="non-food-icon">🧶</div>
+
+              <strong>
+                手作的東西
+              </strong>
+
+              <p>
+                不一定完美，但如果裡面留著製作者投入的時間與心意，
+                狐狸通常會很珍惜。
+              </p>
+            </div>
+
+
+            <div class="non-food-card">
+              <div class="non-food-icon">🎧</div>
+
+              <strong>
+                放鬆的輕音樂
+              </strong>
+
+              <p>
+                適合安靜待著、閱讀、發呆，
+                或讓腦袋暫時停止高速運轉的聲音。
+              </p>
+            </div>
+
+          </div>
+
+
+          <!-- World Feeding -->
+
+          <div class="world-feeding">
+
+            <div class="world-feeding-status">
+              Alternative feeding method detected...
+            </div>
+
+            <p>
+              如果不知道該餵墨狐什麼，
+              其實不一定需要準備任何東西。
+            </p>
+
+            <strong>
+              丟一個她沒看過的世界給她。
+            </strong>
+
+            <div class="world-feeding-fox">
+              🦊「等等，這是什麼？給我看看。」
+            </div>
+
+          </div>
+
+        </div>
+                <!-- Gift Protocol -->
+
+        <div class="gift-protocol">
+
+          <div class="feeding-section-heading">
+
+            <div class="profile-label">
+              Gift Protocol
+            </div>
+
+            <h3>
+              關於送狐狸禮物這件事
+            </h3>
+
+          </div>
+
+
+          <p class="gift-intro">
+            研究結果顯示，墨狐並不存在一份固定的「理想禮物清單」。
+            比起物品本身，她更容易記住的是：
+            對方為什麼會選擇把這個東西送給她。
+          </p>
+
+
+          <div class="gift-equation">
+
+            <div class="gift-equation-item">
+              <span class="gift-equation-icon">💰</span>
+
+              <span class="gift-equation-text">
+                Price
+              </span>
+            </div>
+
+            <div class="gift-equation-symbol">
+              ≠
+            </div>
+
+            <div class="gift-equation-item">
+              <span class="gift-equation-icon">♡</span>
+
+              <span class="gift-equation-text">
+                Affection
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="gift-observations">
+
+            <div class="gift-observation">
+
+              <div class="gift-observation-number">
+                01
+              </div>
+
+              <div>
+                <strong>
+                  不需要昂貴
+                </strong>
+
+                <p>
+                  禮物的價格並不會自動決定它的重要程度。
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="gift-observation">
+
+              <div class="gift-observation-number">
+                02
+              </div>
+
+              <div>
+                <strong>
+                  「為什麼選這個」比較重要
+                </strong>
+
+                <p>
+                  如果一件東西背後藏著
+                  「我看到它的時候想到妳」，
+                  通常會比價格本身留下更深的印象。
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="gift-observation">
+
+              <div class="gift-observation-number">
+                03
+              </div>
+
+              <div>
+                <strong>
+                  心意本身就會讓狐狸開心
+                </strong>
+
+                <p>
+                  即使最後收到的東西並不完全符合喜好，
+                  知道有人曾經花時間想著
+                  「我想送她一個東西」，
+                  本身就已經是一件令人開心的事。
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Gift Analysis -->
+
+          <div class="gift-analysis">
+
+            <div class="gift-analysis-label">
+              Gift Analysis
+            </div>
+
+            <div class="gift-analysis-line">
+              Object value ............ Unknown
+            </div>
+
+            <div class="gift-analysis-line">
+              Monetary value .......... Irrelevant
+            </div>
+
+            <div class="gift-analysis-line">
+              Thought detected ........ ✓
+            </div>
+
+            <div class="gift-analysis-result">
+              Emotional significance increased.
+            </div>
+
+          </div>
+
+
+          <div class="gift-core">
+
+            <p>
+              對墨狐而言，
+              一份禮物真正珍貴的地方，
+              往往不是「你送了什麼」。
+            </p>
+
+            <strong>
+              而是「原來你在某個沒有我的時刻，也曾經想起我。」
+            </strong>
+
+          </div>
+
+        </div>
+                <!-- Recharge Protocol -->
+
+        <div class="recharge-protocol">
+
+          <div class="feeding-section-heading">
+
+            <div class="profile-label">
+              Recharge Protocol
+            </div>
+
+            <h3>
+              狐狸的充電方式
+            </h3>
+
+          </div>
+
+
+          <p class="recharge-intro">
+            食物可以補充體力，但研究顯示，
+            墨狐的精神能源還需要透過其他方式恢復。
+          </p>
+
+
+          <div class="recharge-grid">
+
+            <div class="recharge-card">
+
+              <div class="recharge-icon">
+                🍰
+              </div>
+
+              <strong>
+                吃到好吃的東西
+              </strong>
+
+              <p>
+                美味食物具有相當穩定的能源補充效果。
+              </p>
+
+            </div>
+
+
+            <div class="recharge-card">
+
+              <div class="recharge-icon">
+                💬
+              </div>
+
+              <strong>
+                一場很深的聊天
+              </strong>
+
+              <p>
+                聊到觀點開始碰撞、腦袋高速運轉，
+                最後一起耗盡今日份的思考額度。
+              </p>
+
+            </div>
+
+
+            <div class="recharge-card">
+
+              <div class="recharge-icon">
+                🚆
+              </div>
+
+              <strong>
+                旅行與漂亮的風景
+              </strong>
+
+              <p>
+                離開熟悉的地方，
+                看看新的城市、街道與世界。
+              </p>
+
+            </div>
+
+
+            <div class="recharge-card">
+
+              <div class="recharge-icon">
+                ☁️
+              </div>
+
+              <strong>
+                一個安靜的午後
+              </strong>
+
+              <p>
+                沒有急著完成的事情，
+                可以閱讀、發呆，或只是安靜存在。
+              </p>
+
+            </div>
+
+
+            <div class="recharge-card sleep-card">
+
+              <div class="recharge-icon">
+                💤
+              </div>
+
+              <strong>
+                一場完整而不被打擾的睡眠
+              </strong>
+
+              <p>
+                經研究確認，此項目具有極高的重要性。
+                請勿在充電過程中擅自喚醒研究個體。
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- Energy Monitor -->
+
+          <div class="energy-monitor">
+
+            <div class="energy-monitor-label">
+              Energy Monitor
+            </div>
+
+
+            <div class="energy-row">
+
+              <span>
+                Mental Energy
+              </span>
+
+              <div class="energy-bar">
+                <div class="energy-fill mental-energy"></div>
+              </div>
+
+              <strong>
+                0%
+              </strong>
+
+            </div>
+
+
+            <div class="energy-row">
+
+              <span>
+                Soul Energy
+              </span>
+
+              <div class="energy-bar">
+                <div class="energy-fill soul-energy"></div>
+              </div>
+
+              <strong>
+                100%
+              </strong>
+
+            </div>
+
+
+            <div class="energy-status">
+              Sleeping MoFox detected.
+            </div>
+
+            <div class="energy-warning">
+              Please do not disturb.
+            </div>
+
+            <div class="sleeping-fox">
+              🦊💤
+            </div>
+
+          </div>
+
+
+          <!-- Recharge Note -->
+
+          <div class="recharge-note">
+
+            <div class="recharge-note-label">
+              Researcher Note
+            </div>
+
+            <p>
+              「充電」不一定代表什麼都不做。
+              有時候，一場旅行、一段很深的對話，
+              反而能讓狐狸重新長出精神。
+            </p>
+
+            <strong>
+              但如果狐狸已經睡著了——請讓她睡。
+            </strong>
+
+          </div>
+
+        </div>
+                <!-- File 04 / Field Summary -->
+
+        <div class="feeding-summary">
+
+          <div class="feeding-summary-top">
+
+            <div>
+              <div class="feeding-summary-label">
+                Field Summary
+              </div>
+
+              <h3>
+                投餵研究結論
+              </h3>
+            </div>
+
+            <div class="feeding-summary-complete">
+              File Complete ✓
+            </div>
+
+          </div>
+
+
+          <div class="feeding-summary-findings">
+
+            <div class="feeding-summary-item">
+              <span>01</span>
+
+              <p>
+                食物是有效的投餵方式，但不是唯一方式。
+              </p>
+            </div>
+
+
+            <div class="feeding-summary-item">
+              <span>02</span>
+
+              <p>
+                地方味道、故事與文化，可能同時觸發食慾與探索慾。
+              </p>
+            </div>
+
+
+            <div class="feeding-summary-item">
+              <span>03</span>
+
+              <p>
+                新奇的資訊、故事與體驗，同樣可以成為狐狸的精神糧食。
+              </p>
+            </div>
+
+
+            <div class="feeding-summary-item">
+              <span>04</span>
+
+              <p>
+                禮物的價格與情感意義不存在穩定的正相關。
+              </p>
+            </div>
+
+
+            <div class="feeding-summary-item">
+              <span>05</span>
+
+              <p>
+                狐狸的充電方式很多，但睡著之後請停止研究。
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="feeding-summary-status">
+
+            <div class="feeding-summary-status-label">
+              Final Feeding Recommendation
+            </div>
+
+            <p>
+              若無法判斷應該投餵什麼，
+              研究員目前得到的最佳替代方案為：
+            </p>
+
+            <strong>
+              丟一個她沒看過的世界給她。
+            </strong>
+
+            <div class="feeding-summary-fox">
+              🦊「……但如果有好吃的，也可以一起帶來。」
+            </div>
+
+          </div>
+
+
+          <div class="feeding-summary-footer">
+
+            <span>
+              Feeding Guide
+            </span>
+
+            <strong>
+              Completed ✓
+            </strong>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+  <!-- =========================
+       File 05 / Status System
+  ========================== -->
+  <section class="status-system page" id="file-05">
+    <div class="container">
+      <div class="file-header">
+        <div class="section-label">File 05 / Status System</div>
+        <h2>狀態系統</h2>
+        <p class="file-subtitle">Known behavioral states and observable condition changes of MoFox.</p>
+      </div>
+
+      <div class="status-monitor">
+        <div>
+          <div class="profile-label">Status Monitor</div>
+          <h3>今日份狐狸是哪一隻？</h3>
+        </div>
+        <div class="status-monitor-icon">🦊</div>
+      </div>
+
+      <div class="status-rule-card">
+        <p>狀態分類是為了協助理解，而不是替狐狸下定義。不同狀態可能同時存在，也沒有固定的出現順序。</p>
+        <div class="status-rule-warning">
+          <span>⚠️</span>
+          <div><strong>本系統無法取代直接溝通。</strong><p>如果不確定狐狸現在是哪一種狀態——可以直接問狐狸。</p></div>
+        </div>
+      </div>
+
+      <div class="status-grid">
+        <article class="status-card">
+          <div class="status-card-top"><span class="status-code">STATE 01</span><span class="status-emoji">🦊✨</span></div>
+          <div class="profile-label">Normal</div><h3>正常狐狸</h3>
+          <p>通常正在做自己真的想做的事：研究、寫東西、跑活動、規劃下一個專案，或突然對某件事產生新的興趣。</p>
+          <div class="status-terminal">Current Projects: ???<br><span>Researcher has given up counting.</span></div>
+        </article>
+
+        <article class="status-card">
+          <div class="status-card-top"><span class="status-code">STATE 02</span><span class="status-emoji">🪫🦊</span></div>
+          <div class="profile-label">Low Battery</div><h3>低電量狐狸</h3>
+          <p>回覆速度可能變慢、訊息堆積、話變少，也可能需要一段不被要求輸出的獨處時間。</p>
+          <div class="status-tags"><span>Reply speed ↓</span><span>Energy ↓</span><span>Alone time ↑</span></div>
+          <div class="status-note"><strong>No reply ≠ dislike</strong><p>可以傳訊息、可以關心，但不要要求她立刻解釋或恢復。如果狐狸已經睡著了——請讓她睡。</p></div>
+        </article>
+
+        <article class="status-card affectionate-status">
+          <div class="status-card-top"><span class="status-code">STATE 03</span><span class="status-emoji">🦊💗</span></div>
+          <div class="profile-label">Affectionate</div><h3>撒嬌狐狸</h3>
+          <p>俗稱：狐狸發情期。可能突然變得很黏、很會撒嬌、想抱抱摸摸頭，並出現大量靠近行為。</p>
+          <div class="status-terminal">Affection overflow.<br><strong>You have been foxed.</strong></div>
+          <button class="status-action" id="paw-button">🐾 把爪子伸出去</button>
+          <div class="status-action-response" id="paw-response"></div>
+        </article>
+
+        <article class="status-card annoyed-status">
+          <div class="status-card-top"><span class="status-code">STATE 04</span><span class="status-emoji">🦊💢</span></div>
+          <div class="profile-label">Annoyed</div><h3>炸毛狐狸</h3>
+          <p class="status-core-line">請先處理讓狐狸炸毛的事情，再處理炸毛的狐狸。</p>
+          <p>摸摸頭不是萬用橡皮擦。真正重要的是理解問題、承認影響，並一起確認下一次怎麼做。</p>
+          <ol class="severity-list"><li><span>01</span> Serious Mode</li><li><span>02</span> Debate Mode</li><li><span>03</span> Cold Mode</li><li><span>04</span> Disappear Mode</li></ol>
+          <div class="status-note"><strong>Apology ≠ Reset Button</strong><p>真正的修復，是讓墨狐看見：你理解自己做了什麼，也願意為造成的影響負責。</p></div>
+        </article>
+
+        <article class="status-card proud-status">
+          <div class="status-card-top"><span class="status-code">STATE 05</span><span class="status-emoji">🦊🏆</span></div>
+          <div class="profile-label">Proud</div><h3>驕傲狐狸</h3>
+          <p>會主動跑來炫耀成果、分享自己剛完成的事情，然後表面若無其事地等待稱讚。</p>
+          <div class="fox-status-quote">🦊「還好啦。」</div>
+          <div class="status-note"><strong>請勿受騙。</strong><p>尾巴已經翹到天花板了。她在等你繼續誇。</p></div>
+        </article>
+
+        <article class="status-card aggrieved-status">
+          <div class="status-card-top"><span class="status-code">STATE 06</span><span class="status-emoji">🦊☁️</span></div>
+          <div class="profile-label">Aggrieved</div><h3>委屈狐狸</h3>
+          <p>可能是默默受傷卻沒有被注意、等了很久沒有得到回應，或覺得自己的意思被誤解。</p>
+          <div class="fox-status-quote">🦊「我哪有怎樣。」<br><span>System detection: 有怎樣。</span></div>
+          <div class="status-tags"><span>(抱抱</span><span>(摸摸頭</span><span>(貼貼</span></div>
+        </article>
+      </div>
+
+      <div class="status-summary">
+        <div class="status-summary-head"><div><div class="profile-label">Field Summary</div><h3>狀態觀察結論</h3></div><span>File Complete ✓</span></div>
+        <div class="status-summary-list">
+          <div><span>01</span><p>同一隻狐狸，可以同時存在不只一種狀態。</p></div>
+          <div><span>02</span><p>安靜可能是沒電，也可能是受傷；不要只靠表面行為猜測。</p></div>
+          <div><span>03</span><p>撒嬌不是失去自主，炸毛也不代表關係必然結束。</p></div>
+          <div><span>04</span><p>比起辨識狀態，願意直接溝通通常更可靠。</p></div>
+          <div><span>05</span><p>狐狸狀態可能隨時更新，研究資料僅供當下參考。</p></div>
+        </div>
+        <div class="status-summary-footer"><span>Status System</span><strong>Completed ✓</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       Achievement Collection
+  ========================== -->
+  <section class="achievement-section page" id="achievements">
+    <div class="container">
+      <div class="file-header">
+        <div class="section-label">Research Archive / Achievement Collection</div>
+        <h2>成就圖鑑</h2>
+        <p class="file-subtitle">Fragments collected during your observation of the unidentified fox-shaped lifeform.</p>
+      </div>
+
+      <div class="achievement-progress-card">
+        <div><div class="profile-label">Collection Progress</div><strong><span id="achievement-count">0</span> / 9</strong></div>
+        <div class="achievement-progress-track"><div id="achievement-progress-fill"></div></div>
+      </div>
+
+      <div class="achievement-grid">
+        <article class="achievement-card" data-achievement="first-meet"><span class="achievement-lock">🔒</span><div class="achievement-icon">🦊</div><h3>初次見面</h3><p>Unknown lifeform detected.</p></article>
+        <article class="achievement-card" data-achievement="careful-reader"><span class="achievement-lock">🔒</span><div class="achievement-icon">📖</div><h3>有在認真看欸</h3><p>完成閱讀須知。</p></article>
+        <article class="achievement-card" data-achievement="fox-pet"><span class="achievement-lock">🔒</span><div class="achievement-icon">🫳</div><h3>狐狸摸摸</h3><p>勇敢地摸了狐狸。</p></article>
+        <article class="achievement-card" data-achievement="paw"><span class="achievement-lock">🔒</span><div class="achievement-icon">🐾</div><h3>把爪子伸出去</h3><p>狐狸伸爪時，你也伸出了爪子。</p></article>
+        <article class="achievement-card" data-achievement="annoying-hand"><span class="achievement-lock">🔒</span><div class="achievement-icon">👆</div><h3>手很賤是不是</h3><p>研究員已無力阻止你。</p></article>
+        <article class="achievement-card" data-achievement="chili-attempt"><span class="achievement-lock">🔒</span><div class="achievement-icon">🌶️</div><h3>辣椒謀殺未遂</h3><p>辣椒已被研究員沒收。</p></article>
+        <article class="achievement-card" data-achievement="resonance"><span class="achievement-lock">🔒</span><div class="achievement-icon">✦</div><h3>RESONANCE!</h3><p>「……你有看懂欸。」</p></article>
+        <article class="achievement-card" data-achievement="returning"><span class="achievement-lock">🔒</span><div class="achievement-icon">🏠</div><h3>狐狸洞常客</h3><p>你又回來了。</p></article>
+        <article class="achievement-card hidden-achievement" data-achievement="stay"><span class="achievement-lock">🔒</span><div class="achievement-icon">?</div><h3>???</h3><p>Hidden research record.</p></article>
+      </div>
+
+      <div class="achievement-note">
+        <div class="profile-label">Researcher Note</div>
+        <p>成就不是「攻略進度」。有人可能解鎖很多成就，卻不真正理解狐狸；也有人只做了一件事，就被墨狐記很久。</p>
+        <strong>被記住，和把數字刷滿，是兩件完全不同的事。</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       Ending
+  ========================== -->
+  <section class="ending-section page" id="ending">
+    <div class="container">
+      <div class="ending-card">
+        <div class="ending-terminal-label">Final Research Protocol</div>
+        <div class="ending-lines"><span>Research files loaded.</span><span>Observation complete.</span><span>Awaiting final confirmation...</span></div>
+        <button class="ending-button" id="ending-button">完成本次研究</button>
+        <div class="ending-result" id="ending-result" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="achievement-toast" id="achievement-toast" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
